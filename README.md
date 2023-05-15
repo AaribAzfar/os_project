@@ -15,7 +15,7 @@ Details:
 	A ping pong game with displayed GUI. A player(Client) connects to a server in its LAN. 
 Then player plays the game, client and server communicate in between sending data packets consisting information about player and ball position. 
 Server does 2 things. It simulates the game which is ball movement, paddle movement, collision detection and 
-maintaining the score and receives input from the two clients  about which arrow key is pressed then moves the paddle in that direction
+maintaining the score and receives input from the two clients  about which arrow key is pressed then moves the paddle in that direction.
 The two clients which are two players on different computers have only two jobs. 
 To draw the paddle a the ball at the coordinates received by the server and to send input data to server about which arrow key is pressed.
 
